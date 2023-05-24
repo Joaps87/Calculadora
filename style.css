@@ -1,0 +1,176 @@
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+  
+
+}
+
+.container{
+    background-color: #fda615;
+    max-width: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+
+.imagem__logo{
+    width: 490px;
+   
+}
+
+.opcao{
+    text-align: center;
+    color: #0000ff;
+    margin: 24px 0;
+}
+
+.formulario label{
+    color: #1ca9eb;
+    font-size: 30px;
+}
+
+.input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.button{
+    width: 50%;
+    height: 50px;
+    background-color: #1db831;
+    color: rgb(228, 160, 13);
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+  
+
+}
+
+.resultado{
+    background-color: #1db831;
+    max-width: 500px;
+    padding: 15px 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ffd000e7;
+    user-select: none;
+    transition: transform 0.8s;
+
+}
+
+.hide{
+    display: none;
+}
+
+.resultado:hover{
+    transform: scale(1.1);
+
+}
+
+.resultado span{
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.resultado__compensa{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info{
+    position: fixed;
+    right: 30px;
+    bottom: 22px;
+}
+
+.moldura{
+    color: #fff;
+    background-color: #1ca9eb;
+    border-radius: 8px;
+    position: relative;
+    bottom: 50px;
+    display: none;
+}
+
+.info__img{
+    width: 60px;
+    height: 60px;
+}
+
+.imagem__logo__bomba{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.info:hover .moldura{
+    display: inline;
+}
+
+
+.sobre{
+    background-color: #1db831;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 8PX;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+
+.sobre p {
+    color: #fff;
+    line-height: 27px;
+}
+
+
+.botao__calcular{
+    background-color:#0000ff;
+    color: #fff;
+    border-radius: 10px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    
+}

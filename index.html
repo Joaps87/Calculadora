@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="calcular preco da gasolina iu Alcool">
+    <link rel="stylesheet" href="./style.css">
+    <title>Compensa Gasolina ou Etanol</title>
+
+</head>
+<body>
+    <main class="container">
+        <img src="./assets/gasolina-ou-etanol.jpg" alt="Logo da calculadora" class="imagem__logo">
+        <h1 class="opcao">Qual a melhor opção?</h1>
+        
+        <form onsubmit="calcular(event)" class="formulario">
+            <label> Etanol (preço do litro) </label>
+                <input 
+                id="etanol"
+                    class="input"
+                    type="number"
+                    placeholder="3,00"
+                    min="0.50"
+                    step="0.01"
+                    required 
+                    />
+
+            <label>Gasolina (preço do litro) </label>
+                <input 
+                    id="gasolina"
+                    class="input"
+                    type="number"
+                    placeholder="3,00"
+                    min="0.50"
+                    step="0.01"
+                    resquired
+                    />
+
+                <input class="button" type="submit" value="Calcular">
+            
+        </form>
+        <section id="cont_result" class="resultado hide">
+            <span id="resultado" class="resultado__compensa"> Compensa usar Etanol</span>
+
+            <span id="result_etanol"> etanol R$ 3.00</span>
+            <span id="result_gasolina"> gasolina R$ 7.00</span>
+        </section>
+    </main>
+
+        <div class="info">
+            <span class="moldura"> Veja com é feito o calculo</span>
+            <a href="calculo.html">
+                <img class="info__img" src="./assets/info.png" alt="Como é feito o calculo">
+            </a>
+        </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
